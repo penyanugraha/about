@@ -1,5 +1,6 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/about" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog # FOR LOCAL
+baseurl: "/about" # the subpath of your site, e.g. /blog # FOR GITHUB PAGES
 title: "" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-postcss

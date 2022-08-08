@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .techstack {
+        @apply bg-blue-400 text-white px-2 py-1 mr-1 text-xs rounded  my-1;
+    }
+
+    .container-techstack {
+        @apply flex flex-wrap mb-2;
+    }
+
+    .title-summary {
+        @apply text-2xl pb-1 border-b-2 font-semibold cursor-pointer mt-10;
+    }
+
+    .ed-container-media-center {
+        @apply flex flex-wrap justify-center;
+    }
+
+    .ed-container-media-start {
+        @apply flex flex-wrap justify-start;
+    }
+
+    .ed-media {
+        @apply w-10/12 shadow-lg rounded max-w-full h-auto align-middle border-none my-2 mx-1;
+    }
+
+    .ed-media-half {
+        @apply w-5/12 shadow-lg rounded max-w-full h-auto align-middle border-none my-2 mx-1;
+    }
+
+    .ed-skills-item {
+        @apply px-0 md:px-2 mt-1 text-sm;
+    }
+
+    .ed-skills-item-md {
+        @apply px-2;
+    }
+
+    .ed-content {
+        @apply my-5 border-b;
+    }
+}
