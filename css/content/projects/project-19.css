@@ -1,0 +1,36 @@
+#ed-project-19-title:after {
+  content: "Symbolic Text Editor";
+}
+
+#ed-project-19-about:after {
+  content: "Symbolic Text Editor is Flutter package that used in Symbolic.";
+}
+
+#ed-project-19-task-1:after {
+  content: "Developing Flutter package for rich-text editing functionality that aims to clone Notion capabilities.";
+}
+
+#ed-project-19-task-2:after {
+  content: "Improving and extends existing public package to specific needs.";
+}
+
+#ed-project-19-task-3:after {
+  content: "Using QuillJS’s Delta scheme to build flexible and consistent document data.  ";
+}
+
+#ed-project-19-techstack-1:after {
+  content: "Flutter";
+}
+
+#ed-project-19-techstack-2:after {
+  content: "Dart";
+}
+
+#ed-project-19-techstack-3:after {
+  content: "QuillJS";
+}
+
+.ed-project-19-img-1 {
+  content: url("../../../assets/images/sym_editor_demo.gif");
+}
+  

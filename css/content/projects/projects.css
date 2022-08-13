@@ -1,21 +1,68 @@
+@import url(project-1.css);
+@import url(project-2.css);
+@import url(project-3.css);
+@import url(project-4.css);
+@import url(project-5.css);
+@import url(project-6.css);
+@import url(project-7.css);
+@import url(project-8.css);
+@import url(project-9.css);
+@import url(project-10.css);
+@import url(project-11.css);
+@import url(project-12.css);
+@import url(project-13.css);
+@import url(project-14.css);
+@import url(project-15.css);
+@import url(project-16.css);
+@import url(project-17.css);
+@import url(project-18.css);
+@import url(project-19.css);
 @import url(project-20.css);
 
 #ed-projects-title:after {
   content: "Projects";
 }
 
+#ed-project--title:after {
+  content: "";
+}
+
 #ed-project--about:after {
   content: "";
 }
 
-#ed-project--task-:after {
+#ed-project--task-1:after {
   content: "";
 }
 
-#ed-project--techstack-:after {
+#ed-project--task-2:after {
   content: "";
 }
 
-.ed-project--img- {
-    content:url("../../assets/images/sym_xbrain.png");
+#ed-project--task-3:after {
+  content: "";
+}
+
+#ed-project--techstack-1:after {
+  content: "";
+}
+
+#ed-project--techstack-2:after {
+  content: "";
+}
+
+#ed-project--techstack-3:after {
+  content: "";
+}
+
+.ed-project--img-1 {
+    content:url("../../../assets/images/.png");
+}
+
+.ed-project--img-2 {
+    content:url("../../../assets/images/.png");
+}
+
+.ed-project--img-3 {
+    content:url("../../../assets/images/.png");
 }
