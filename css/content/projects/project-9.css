@@ -1,0 +1,64 @@
+#ed-project-9-title:after {
+  content: "Wideboard Android App";
+}
+
+#ed-project-9-about:after {
+  content: "Wideboard is chat application that focused for workspace.";
+}
+
+#ed-project-9-task-1:after {
+  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
+}
+
+#ed-project-9-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-9-task-3:after {
+  content: "Refactoring codes from Java to Kotlin.";
+}
+
+#ed-project-9-task-4:after {
+  content: "Developing real-time chat communication with various type of data including Text, Audio, Image, and Video using Cluster WebSocket.";
+}
+
+#ed-project-9-task-5:after {
+  content: "Developing video conference feature using Jitsi SDK.";
+}
+
+#ed-project-9-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-9-techstack-2:after {
+  content: "Kotlin";
+}
+
+#ed-project-9-techstack-3:after {
+  content: "Java";
+}
+
+#ed-project-9-techstack-4:after {
+  content: "XML";
+}
+
+#ed-project-9-techstack-5:after {
+  content: "Firebase";
+}
+
+#ed-project-9-techstack-6:after {
+  content: "ClusterWS";
+}
+
+#ed-project-9-techstack-7:after {
+  content: "Jitsi SDK";
+}
+
+.ed-project-9-img-1 {
+  content: url("../../../assets/images/wb1.webp");
+}
+
+.ed-project-9-img-2 {
+  content: url("../../../assets/images/wb2.webp");
+}
+  

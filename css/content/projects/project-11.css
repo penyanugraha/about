@@ -1,0 +1,48 @@
+#ed-project-11-title:after {
+  content: "Sprinkle IoT Android App";
+}
+
+#ed-project-11-about:after {
+  content: "Sprinkle is an application that control, monitor, and scheduling Smart Sprinklers Devices.";
+}
+
+#ed-project-11-task-1:after {
+  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
+}
+
+#ed-project-11-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-11-task-3:after {
+  content: "Developing a real-time data communication between Android and Smart Device using Firebase Realtime Database.";
+}
+
+#ed-project-11-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-11-techstack-2:after {
+  content: "Kotlin";
+}
+
+#ed-project-11-techstack-3:after {
+  content: "XML";
+}
+
+#ed-project-11-techstack-4:after {
+  content: "Firebase";
+}
+
+.ed-project-11-img-1 {
+  content: url("../../../assets/images/sprinkle_1.png");
+}
+
+.ed-project-11-img-2 {
+  content: url("../../../assets/images/sprinkle_2.png");
+}
+
+.ed-project-11-img-3 {
+  content: url("../../../assets/images/sprinkle_3.png");
+}
+  

@@ -1,0 +1,52 @@
+#ed-project-10-title:after {
+  content: "Sadikun IoT Android App";
+}
+
+#ed-project-10-about:after {
+  content: "Sadikun App is an application that control and monitor Pump Devices on Oil Tanker Truck.";
+}
+
+#ed-project-10-task-1:after {
+  content: "Responsible for full Android app life-cycle: concept, design, build, test, and deploy.";
+}
+
+#ed-project-10-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-10-task-3:after {
+  content: "Developing bluetooth communication to show pump device status information in real time (e.g. Pump volumes, weight, location).";
+}
+
+#ed-project-10-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-10-techstack-2:after {
+  content: "Kotlin";
+}
+
+#ed-project-10-techstack-3:after {
+  content: "XML";
+}
+
+#ed-project-10-techstack-4:after {
+  content: "Firebase";
+}
+
+.ed-project-10-img-1 {
+  content: url("../../../assets/images/sadikun_1.png");
+}
+
+.ed-project-10-img-2 {
+  content: url("../../../assets/images/sadikun_2.png");
+}
+
+.ed-project-10-img-3 {
+  content: url("../../../assets/images/sadikun_3.png");
+}
+
+.ed-project-10-img-4 {
+  content: url("../../../assets/images/sadikun_4.png");
+}
+  

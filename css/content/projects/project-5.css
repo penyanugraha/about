@@ -1,0 +1,52 @@
+#ed-project-5-title:after {
+  content: "Persib Pass Android App";
+}
+
+#ed-project-5-about:after {
+  content: "Persib Pass is an application that displays news, match schedules, live broadcasts, profiles, statistics and others related to Persib Footbal Club.";
+}
+
+#ed-project-5-task-1:after {
+  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
+}
+
+#ed-project-5-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-5-task-3:after {
+  content: "Developing a real-time live match broadcast using Firebase Realtime Database.";
+}
+
+#ed-project-5-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-5-techstack-2:after {
+  content: "Kotlin";
+}
+
+#ed-project-5-techstack-3:after {
+  content: "XML";
+}
+
+#ed-project-5-techstack-4:after {
+  content: "Firebase";
+}
+
+.ed-project-5-img-1 {
+  content: url("../../../assets/images/persib_1.png");
+}
+
+.ed-project-5-img-2 {
+  content: url("../../../assets/images/persib_2.png");
+}
+
+.ed-project-5-img-3 {
+  content: url("../../../assets/images/persib_3.png");
+}
+
+.ed-project-5-img-4 {
+  content: url("../../../assets/images/persib_4.png");
+}
+  

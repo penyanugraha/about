@@ -1,0 +1,39 @@
+#ed-project-1-title:after {
+  content: "Artur Android App";
+}
+
+#ed-project-1-about:after {
+  content: "Artur is augmented reality app that shows various tourist object attraction in Yogyakarta. This project wins silver medal at Pekan Ilmiah Mahasiswa Nasional 2015.";
+}
+
+#ed-project-1-task-1:after {
+  content: "Using Unity Engine and Vuforia SDK to develop augmented reality functionality.";
+}
+
+#ed-project-1-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-1-techstack-2:after {
+  content: "Unity Engine";
+}
+
+#ed-project-1-techstack-3:after {
+  content: "C#";
+}
+
+#ed-project-1-techstack-4:after {
+  content: "Augmented Reality";
+}
+
+#ed-project-1-techstack-5:after {
+  content: "Vuforia SDK";
+}
+
+.ed-project-1-img-1 {
+  content: url("../../../assets/images/artur_1.png");
+}
+
+.ed-project-1-img-2 {
+  content: url("../../../assets/images/artur_2.png");
+}
