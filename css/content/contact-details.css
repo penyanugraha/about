@@ -1,0 +1,27 @@
+#ed-contact-details:after {
+  content: "Contact Details";
+}
+
+#ed-phone-title:after {
+  content: "Phone / WhatsApp";
+}
+
+#ed-phone-content:after {
+  content: "+62 821 4061 4369";
+}
+
+#ed-email-title:after {
+  content: "E-mail";
+}
+
+#ed-email-content:after {
+  content: "swakresnaedityo@gmail.com";
+}
+
+#ed-location-title:after {
+  content: "Location";
+}
+
+#ed-location-content:after {
+  content: "Yogyakarta, Indonesia";
+}

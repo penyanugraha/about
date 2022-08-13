@@ -1,54 +1,16 @@
 <!DOCTYPE html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Edityomurti's</title>
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link href="css/output.css" rel="stylesheet">
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .techstack {
-                @apply bg-blue-400 text-white px-2 py-1 mr-1 text-xs rounded  my-1;
-            }
-
-            .container-techstack {
-                @apply flex flex-wrap mb-2;
-            }
-
-            .title-summary {
-                @apply text-2xl pb-1 border-b-2 font-semibold cursor-pointer mt-10;
-            }
-
-            .ed-container-media-center {
-                @apply flex flex-wrap justify-center;
-            }
-
-            .ed-container-media-start {
-                @apply flex flex-wrap justify-start;
-            }
-
-            .ed-media {
-                @apply w-10/12 shadow-lg rounded max-w-full h-auto align-middle border-none my-2 mx-1;
-            }
-
-            .ed-media-half {
-                @apply w-5/12 shadow-lg rounded max-w-full h-auto align-middle border-none my-2 mx-1;
-            }
-
-            .ed-skills-item {
-                @apply px-0 md:px-2 mt-1 text-sm;
-            }
-
-            .ed-skills-item-md {
-                @apply px-2;
-            }
-
-            .ed-content {
-                @apply my-5 border-b;
-            }
-        }
-      </style>
-    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"> -->
+    <link href="css/content/header.css" rel="stylesheet">
+    <link href="css/content/contact-details.css" rel="stylesheet">
+    <link href="css/content/education.css" rel="stylesheet">
+    <link href="css/content/skills.css" rel="stylesheet">
+    <link href="css/content/work-exp.css" rel="stylesheet">
 </head>
 
 <body class="flex-auto md:flex md:justify-center content-center">
@@ -108,8 +70,8 @@
             </ul>
             <div class="flex justify-center items-center mt-5">
                 <div class="justify-center">
-                    <h1 class="text-center text-xl lg:text-5xl md:text-3xl font-extrabold">SWAKRESNA EDITYOMURTI</h1>
-                    <p class="text-base md:text-xl mt-1 text-center">Flutter Developer</p>
+                    <h1 id="ed-name" class="text-center text-xl lg:text-5xl md:text-3xl font-extrabold"></h1>
+                    <p id="ed-title" class="text-base md:text-xl mt-1 text-center"></p>
                 </div>
             </div>
         </header>
@@ -118,68 +80,77 @@
             <div class="md:w-2/6 mt-10 flex flex-col-reverse md:flex-none md:flex-col">
                 <!-- contact details -->
                 <div>
-                    <strong class="flex text-xl border-b md:border-none pb-1 md:pb-0">Contact Details</strong>
+                    <strong id="ed-contact-details" class="flex text-xl border-b md:border-none pb-1 md:pb-0"></strong>
                     <ul class="mt-2 mb-10">
-                        <li class="px-0 md:px-2 mt-1"><strong class="mr-1">Phone / WhatsApp </strong>
-                            <a href="https://wa.me/+6282140614369" target="_blank" class="block">+62 821 4061 4369</a>
+                        <li class="px-0 md:px-2 mt-1">
+                            <strong id="ed-phone-title" class="mr-1"></strong>
+                            <a id="ed-phone-content" href="https://wa.me/+6282140614369" target="_blank"
+                                class="block"></a>
                         </li>
-                        <li class="px-0 md:px-2 mt-1"><strong class="mr-1">E-mail </strong>
-                            <a href="mailto:swakresnaedityo@gmail.com" class="block">swakresnaedityo@gmail.com</a>
+                        <li class="px-0 md:px-2 mt-1">
+                            <strong id="ed-email-title" class="mr-1"></strong>
+                            <a id="ed-email-content" href="mailto:swakresnaedityo@gmail.com" class="block"></a>
                         </li>
-                        <li class="px-0 md:px-2 mt-1"><strong class="mr-1">Location</strong><span
-                                class="block">Yogyakarta, Indonesia</span></li>
+                        <li class="px-0 md:px-2 mt-1">
+                            <strong id="ed-location-title" class="mr-1"></strong>
+                            <span id="ed-location-content" class="block"></span></li>
                     </ul>
                 </div>
                 <!-- education -->
                 <div class="mb-10">
-                    <strong class="flex text-xl border-b md:border-none pb-1 md:pb-0">Education</strong>
+                    <strong id="ed-education-title" class="flex text-xl border-b md:border-none pb-1 md:pb-0"></strong>
                     <div class="px-0 md:px-2">
                         <ul class="mt-2">
                             <li>
-                                <p class="flex justify-between text-sm"><strong class="text-base">SV
-                                        Universitas Gadjah
-                                        Mada</strong>2014-2018</p>
-                                <p class="flex justify-between text-sm">Teknologi Rekayasa
-                                    Internet - S.Tr.T<small>GPA
-                                        3.51</small></p>
+                                <p class="flex justify-between text-sm">
+                                    <strong id="ed-sv-ugm" class="text-base"></strong>
+                                    <medium id="ed-sv-ugm-year"></medium>
+                                </p>
+                                <p class="flex justify-between text-sm">
+                                    <medium id="ed-sv-ugm-major"></medium>
+                                    <small id="ed-sv-ugm-gpa"></small>
+                                </p>
                             </li>
                             <li class="pt-2">
-                                <p class="flex justify-between text-sm"><strong class="text-base">SMA Negeri 6
-                                        Yogyakarta</strong>2011-2014</p>
+                                <p class="flex justify-between text-sm">
+                                    <strong id="ed-shs" class="text-base"></strong>
+                                    <medium id="ed-shs-year"></medium>
+                                </p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <!-- skills -->
                 <div>
-                    <strong class="flex text-xl border-b md:border-none pb-1 md:pb-0">Skills</strong>
+                    <strong id="ed-skills-title" class="flex text-xl border-b md:border-none pb-1 md:pb-0"></strong>
                     <div class="flex">
                         <div>
                             <ul class="mt-2 mb-10">
-                                <li class="ed-skills-item md:ed-skills-item-md">Flutter</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Dart</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Couchbase</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Android</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Kotlin</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Java</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">XML</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Python</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">SDN</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">MikroTik Basic</li>
+                                <li id="ed-skills-1" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-2" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-3" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-4" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-5" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-6" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-7" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-8" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-9" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-10" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-11" class="ed-skills-item md:ed-skills-item-md"></li>
                             </ul>
                         </div>
                         <div class="ml-10">
                             <ul class="mt-2 mb-10">
-                                <li class="ed-skills-item md:ed-skills-item-md">iOS</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Swift</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Obj-C</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">ReactJS</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">NextJS</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">TailwindCSS</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Unity Engine</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">C#</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Raspberry Pi</li>
-                                <li class="ed-skills-item md:ed-skills-item-md">Cisco Basic</li>
+                                <li id="ed-skills-12" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-13" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-14" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-15" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-16" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-17" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-18" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-19" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-20" class="ed-skills-item md:ed-skills-item-md"></li>
+                                <li id="ed-skills-21" class="ed-skills-item md:ed-skills-item-md"></li>
                             </ul>
                         </div>
                     </div>
@@ -206,77 +177,68 @@
                 <section>
                     <!-- work experiences -->
                     <details open>
-                        <summary class="title-summary">Work Experiences
-                        </summary>
+                        <summary id="ed-work-exp-title" class="title-summary"></summary>
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">Flutter Developer</strong>
-                                <text class="text-xs">Mar 2021 - Present</text>
+                                <strong id="ed-work-7-role" class="text-base"></strong>
+                                <text id="ed-work-7-period" class="text-xs"></text>
                             </p>
-                            <p><i>Symbolic.id</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-7-company"></i></p>
+                            <p id="ed-work-7-summary" class="text-xs mt-1"></p>
                         </div>
+
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">Flutter Developer</strong>
-                                <text class="text-xs">Dec 2020 - Mar 2022</text>
+                                <strong id="ed-work-6-role" class="text-base"></strong>
+                                <text id="ed-work-6-period" class="text-xs"></text>
                             </p>
-                            <p><i>Bisabebas.com</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-6-company"></i></p>
+                            <p id="ed-work-6-summary" class="text-xs mt-1"></p>
                         </div>
+
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">Android Developer</strong>
-                                <text class="text-xs">Aug 2019 - Mar 2021</text>
+                                <strong id="ed-work-5-role" class="text-base"></strong>
+                                <text id="ed-work-5-period" class="text-xs"></text>
                             </p>
-                            <p><i>Symbolic.id</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-5-company"></i></p>
+                            <p id="ed-work-5-summary" class="text-xs mt-1"></p>
                         </div>
+
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">iOS Developer</strong>
-                                <text class="text-xs">Dec 2019 - Jul 2020</text>
+                                <strong id="ed-work-4-role" class="text-base"></strong>
+                                <text id="ed-work-4-period" class="text-xs"></text>
                             </p>
-                            <p><i>Wideboard</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-4-company"></i></p>
+                            <p id="ed-work-4-summary" class="text-xs mt-1"></p>
                         </div>
+
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">Android Developer</strong>
-                                <text class="text-xs">Mar 2019 - Dec 2019</text>
+                                <strong id="ed-work-3-role" class="text-base"></strong>
+                                <text id="ed-work-3-period" class="text-xs"></text>
                             </p>
-                            <p><i>Wideboard</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-3-company"></i></p>
+                            <p id="ed-work-3-summary" class="text-xs mt-1"></p>
                         </div>
+
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">Android Developer</strong>
-                                <text class="text-xs">Oct 2015 - Aug 2019</text>
+                                <strong id="ed-work-2-role" class="text-base"></strong>
+                                <text id="ed-work-2-period" class="text-xs"></text>
                             </p>
-                            <p><i>CV. Extra Integer</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-2-company"></i></p>
+                            <p id="ed-work-2-summary" class="text-xs mt-1"></p>
                         </div>
+
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
-                                <strong class="text-base">Mobile Developer Intern</strong>
-                                <text class="text-xs">Jun 2016 - Aug 2016</text>
+                                <strong id="ed-work-1-role" class="text-base"></strong>
+                                <text id="ed-work-1-period" class="text-xs"></text>
                             </p>
-                            <p><i>PT. Dua Empat Tujuh</i></p>
-                            <p class="text-justify text-xs mt-1">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            </p>
+                            <p><i id="ed-work-1-company"></i></p>
+                            <p id="ed-work-1-summary" class="text-xs mt-1"></p>
                         </div>
                     </details>
                 </section>
@@ -291,8 +253,7 @@
                             <p class="text-xs">Aplikasi pembuat catatan dan media sosial.</p>
                             <div class="ed-container-media-center md:ed-container-media-start">
                                 <img src="assets/images/sym_xbrain.png" class="ed-media md:ed-media-half" />
-                                <img src="assets/images/sym_published_deck.png"
-                                    class="ed-media md:ed-media-half" />
+                                <img src="assets/images/sym_published_deck.png" class="ed-media md:ed-media-half" />
                             </div>
                             <div class="container-techstack">
                                 <div class="techstack">Flutter</div>
@@ -321,8 +282,7 @@
                             </div>
                             <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <div class="ed-container-media-center md:ed-container-media-start">
-                                <img src="assets/images/ammdes_demo_small.gif"
-                                    class="ed-media md:ed-media-half" />
+                                <img src="assets/images/ammdes_demo_small.gif" class="ed-media md:ed-media-half" />
                             </div>
                             <div class="container-techstack">
                                 <div class="techstack">Android</div>
@@ -454,9 +414,9 @@
                             </div>
                             <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <div class="ed-container-media-center md:ed-container-media-start">
-                              <img src="assets/images/wb1.webp" class="ed-media-portrait md:ed-media-portrait" />
-                              <img src="assets/images/wb2.webp" class="ed-media-portrait md:ed-media-portrait" />
-                              <img src="assets/images/wb3.webp" class="ed-media-portrait md:ed-media-portrait" />
+                                <img src="assets/images/wb1.webp" class="ed-media-portrait md:ed-media-portrait" />
+                                <img src="assets/images/wb2.webp" class="ed-media-portrait md:ed-media-portrait" />
+                                <img src="assets/images/wb3.webp" class="ed-media-portrait md:ed-media-portrait" />
                             </div>
                             <div class="container-techstack">
                                 <div class="techstack">Android</div>

@@ -1,0 +1,121 @@
+#ed-work-exp-title:after {
+  content: "Work Experiences";
+}
+
+#ed-work-7-role:after {
+  content: "Flutter Developer";
+}
+
+#ed-work-7-period:after {
+  content: "Mar 2021 - Present";
+}
+
+#ed-work-7-company:after {
+  content: "Symbolic.id";
+}
+
+#ed-work-7-summary:after {
+  content: "Responsible for full Flutter app life-cycle from implementing concept to release.";
+}
+
+
+#ed-work-6-role:after {
+  content: "Flutter Developer";
+}
+
+#ed-work-6-period:after {
+  content: "Dec 2020 - Mar 2022";
+}
+
+#ed-work-6-company:after {
+  content: "Bisabebas.com";
+}
+
+#ed-work-6-summary:after {
+  content: "Developing Flutter app with various niche features such as Marketplace, PPOB, Digital Wallet, Online Payment, and Financial Loan System.";
+}
+
+
+#ed-work-5-role:after {
+  content: "Android Developer";
+}
+
+#ed-work-5-period:after {
+  content: "Aug 2019 - Mar 2021";
+}
+
+#ed-work-5-company:after {
+  content: "Symbolic.id";
+}
+
+#ed-work-5-summary:after {
+  content: "Building social media application with over 10.000 install.";
+}
+
+
+#ed-work-4-role:after {
+  content: "iOS Developer";
+}
+
+#ed-work-4-period:after {
+  content: "Dec 2019 - Jul 2020";
+}
+
+#ed-work-4-company:after {
+  content: "Wideboard";
+}
+
+#ed-work-4-summary:after {
+  content: "Improving performance and bugfixing on existing Wideboard app.";
+}
+
+
+#ed-work-3-role:after {
+  content: "Android Developer";
+}
+
+#ed-work-3-period:after {
+  content: "Mar 2019 - Dec 2019";
+}
+
+#ed-work-3-company:after {
+  content: "Wideboard";
+}
+
+#ed-work-3-summary:after {
+  content: "Developing real-time chat communication with various type of data including Text, Audio, Image, and Video.";
+}
+
+
+#ed-work-2-role:after {
+  content: "Android Developer";
+}
+
+#ed-work-2-period:after {
+  content: "Oct 2015 - Aug 2019";
+}
+
+#ed-work-2-company:after {
+  content: "CV. Extra Integer";
+}
+
+#ed-work-2-summary:after {
+  content: "Working with dozens of projects on multiple clients with various app functionality.";
+}
+
+
+#ed-work-1-role:after {
+  content: "Mobile Developer Intern";
+}
+
+#ed-work-1-period:after {
+  content: "Jun 2016 - Aug 2016";
+}
+
+#ed-work-1-company:after {
+  content: "PT. Dua Empat Tujuh";
+}
+
+#ed-work-1-summary:after {
+  content: "Developing Backend & Frontend app for Employee Report Management App.";
+}

@@ -1,0 +1,31 @@
+#ed-education-title:after {
+  content: "Education";
+}
+
+#ed-sv-ugm:after {
+  content: "SV Universitas Gadjah Mada";
+}
+
+#ed-sv-ugm-year:after {
+  content: "2014-2018";
+}
+
+#ed-sv-ugm-major:after {
+  content: "Teknologi Rekayasa Internet - S.Tr.T";
+}
+
+#ed-sv-ugm-gpa:after {
+  content: "GPA 3.51";
+}
+
+#ed-shs:after {
+  content: "SMA Negeri 6 Yogyakarta";
+}
+
+#ed-shs-year:after {
+  content: "2011-2014";
+}
+
+#ed-:after {
+  content: "";
+}
