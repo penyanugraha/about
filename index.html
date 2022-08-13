@@ -11,6 +11,7 @@
     <link href="css/content/education.css" rel="stylesheet">
     <link href="css/content/skills.css" rel="stylesheet">
     <link href="css/content/work-exp.css" rel="stylesheet">
+    <link href="css/content/projects/projects.css" rel="stylesheet">
 </head>
 
 <body class="flex-auto md:flex md:justify-center content-center">
@@ -176,7 +177,7 @@
               </section> -->
                 <section>
                     <!-- work experiences -->
-                    <details open>
+                    <details close>
                         <summary id="ed-work-exp-title" class="title-summary"></summary>
                         <div class="ed-content border-none">
                             <p class="flex justify-between text-base">
@@ -245,20 +246,27 @@
                 <section>
                     <!-- projects -->
                     <details open>
-                        <summary class="title-summary">Projects</summary>
+                        <summary id="ed-projects-title" class="title-summary"></summary>
                         <div class="ed-content">
                             <div class="my-1">
-                                <strong>Symbolic Cross-Platform App</strong>
+                                <strong id="ed-project-20-title"></strong>
                             </div>
-                            <p class="text-xs">Aplikasi pembuat catatan dan media sosial.</p>
+                            <p id="ed-project-20-about" class="text-xs"></p>
+                            <div class="ml-4">
+                                <ul class="list-disc text-xs">
+                                    <li id="ed-project-20-task-1"></li>
+                                    <li id="ed-project-20-task-2"></li>
+                                    <li id="ed-project-20-task-3"></li>
+                                </ul>
+                            </div>
                             <div class="ed-container-media-center md:ed-container-media-start">
-                                <img src="assets/images/sym_xbrain.png" class="ed-media md:ed-media-half" />
-                                <img src="assets/images/sym_published_deck.png" class="ed-media md:ed-media-half" />
+                                <img class="ed-project-20-img-1 ed-media md:ed-media-half" />
+                                <img class="ed-project-20-img-2 ed-media md:ed-media-half" />
                             </div>
                             <div class="container-techstack">
-                                <div class="techstack">Flutter</div>
-                                <div class="techstack">Dart</div>
-                                <div class="techstack">Couchbase</div>
+                                <div id="ed-project-20-techstack-1" class="techstack"></div>
+                                <div id="ed-project-20-techstack-2" class="techstack"></div>
+                                <div id="ed-project-20-techstack-3" class="techstack"></div>
                             </div>
                         </div>
                         <div class="ed-content">

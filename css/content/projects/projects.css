@@ -1,0 +1,21 @@
+@import url(project-20.css);
+
+#ed-projects-title:after {
+  content: "Projects";
+}
+
+#ed-project--about:after {
+  content: "";
+}
+
+#ed-project--task-:after {
+  content: "";
+}
+
+#ed-project--techstack-:after {
+  content: "";
+}
+
+.ed-project--img- {
+    content:url("../../assets/images/sym_xbrain.png");
+}

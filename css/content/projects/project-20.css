@@ -1,0 +1,39 @@
+#ed-project-20-title:after {
+  content: "Symbolic Cross-Platform App";
+}
+
+#ed-project-20-about:after {
+  content: "Symbolic is combination between Knowledge Management System and Social Media.";
+}
+
+#ed-project-20-task-1:after {
+  content: "Responsible for full Flutter app life-cycle: concept, design, build, test, deploy, and release to the Web, Android Play Store, and iOS App Store.";
+}
+
+#ed-project-20-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-20-task-3:after {
+  content: "Designing and developing offline data communication capabilities using CouchbaseDB.";
+}
+
+#ed-project-20-techstack-1:after {
+  content: "Flutter";
+}
+
+#ed-project-20-techstack-2:after {
+  content: "Dart";
+}
+
+#ed-project-20-techstack-3:after {
+  content: "Couchbase";
+}
+
+.ed-project-20-img-1 {
+  content: url("../../../assets/images/sym_xbrain.png");
+}
+
+.ed-project-20-img-2 {
+  content: url("../../../assets/images/sym_published_deck.png");
+}
