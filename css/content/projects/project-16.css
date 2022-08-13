@@ -1,0 +1,44 @@
+#ed-project--title:after {
+  content: "";
+}
+
+#ed-project--about:after {
+  content: "";
+}
+
+#ed-project--task-1:after {
+  content: "";
+}
+
+#ed-project--task-2:after {
+  content: "";
+}
+
+#ed-project--task-3:after {
+  content: "";
+}
+
+#ed-project--techstack-1:after {
+  content: "";
+}
+
+#ed-project--techstack-2:after {
+  content: "";
+}
+
+#ed-project--techstack-3:after {
+  content: "";
+}
+
+.ed-project--img-1 {
+  content: url("../../../assets/images/.png");
+}
+
+.ed-project--img-2 {
+  content: url("../../../assets/images/.png");
+}
+
+.ed-project--img-3 {
+  content: url("../../../assets/images/.png");
+}
+  

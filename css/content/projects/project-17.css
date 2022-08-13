@@ -1,0 +1,60 @@
+#ed-project-17-title:after {
+  content: "AMMDes Dashboard IoT Android App";
+}
+
+#ed-project-17-about:after {
+  content: "AMMDes Dashboard is a Tablet application for control and monitor AMMDes agricultural vehicle.";
+}
+
+#ed-project-17-task-1:after {
+  content: "Responsible for implementing design to functional Android App.";
+}
+
+#ed-project-17-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-17-task-3:after {
+  content: "Developing bluetooth communication to show vehicle status information in real time (e.g. Speed, Acceleration, Fuel, Transmission, Blinker, etc.).";
+}
+
+#ed-project-17-task-4:after {
+  content: "Developing map navigation using GoogleMap API.";
+}
+
+#ed-project-17-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-17-techstack-2:after {
+  content: "Kotlin";
+}
+
+#ed-project-17-techstack-3:after {
+  content: "XML";
+}
+
+#ed-project-17-techstack-4:after {
+  content: "Firebase";
+}
+
+#ed-project-17-techstack-4:after {
+  content: "GoogleMap API";
+}
+
+.ed-project-17-img-1 {
+  content: url("../../../assets/images/ammdes_demo_small.gif");
+}
+
+.ed-project-17-img-2 {
+  content: url("../../../assets/images/ammdes_demo_1.png");
+}
+
+.ed-project-17-img-3 {
+  content: url("../../../assets/images/ammdes_demo_2.png");
+}
+
+.ed-project-17-img-4 {
+  content: url("../../../assets/images/ammdes_demo_3.png");
+}
+  
