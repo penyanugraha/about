@@ -1,0 +1,48 @@
+#ed-project-13-title:after {
+  content: "Pijar Career Android App";
+}
+
+#ed-project-13-about:after {
+  content: " Pijar Career is a career portal for vocational school student that can connect them with suitable vacancies and careers, through collaboration and the active role of Bursa Kerja Khusus (Special Job Exchange) in each school.";
+}
+
+#ed-project-13-task-1:after {
+  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
+}
+
+#ed-project-13-task-2:after {
+  content: "Implementing RESTful API from server and render the data.";
+}
+
+#ed-project-13-techstack-1:after {
+  content: "Android";
+}
+
+#ed-project-13-techstack-2:after {
+  content: "Kotlin";
+}
+
+#ed-project-13-techstack-3:after {
+  content: "XML";
+}
+
+#ed-project-13-techstack-4:after {
+  content: "Firebase";
+}
+
+.ed-project-13-img-1 {
+  content: url("../../../assets/images/pijar_1.png");
+}
+
+.ed-project-13-img-2 {
+  content: url("../../../assets/images/pijar_2.png");
+}
+
+.ed-project-13-img-3 {
+  content: url("../../../assets/images/pijar_3.png");
+}
+
+.ed-project-13-img-4 {
+  content: url("../../../assets/images/pijar_4.png");
+}
+  

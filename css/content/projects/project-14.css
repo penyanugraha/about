@@ -1,0 +1,19 @@
+#ed-project-14-title:after {
+  content: "Pemilu 2019 Data Webscraper";
+}
+
+#ed-project-14-task-1:after {
+  content: "Developing Python program that collects Pemilu 2019 data from official source.";
+}
+
+#ed-project-14-techstack-1:after {
+  content: "Python";
+}
+
+#ed-project-14-techstack-2:after {
+  content: "beautifulsoup";
+}
+
+#ed-project-14-techstack-3:after {
+  content: "pandas";
+}
