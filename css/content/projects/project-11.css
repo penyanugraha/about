@@ -3,7 +3,7 @@
 }
 
 #ed-project-11-about:after {
-  content: "Sprinkle is an application that control, monitor, and scheduling Smart Sprinklers Devices.";
+  content: "Sprinkle is an application that control, monitor, and scheduls Smart Sprinklers Devices.";
 }
 
 #ed-project-11-task-1:after {
@@ -11,11 +11,11 @@
 }
 
 #ed-project-11-task-2:after {
-  content: "Implementing RESTful API from server and render the data.";
+  content: "Implementing RESTful API from the server and rendering the data.";
 }
 
 #ed-project-11-task-3:after {
-  content: "Developing a real-time data communication between Android and Smart Device using Firebase Realtime Database.";
+  content: "Developing real-time data communication between Android and Smart Device using Firebase Realtime Database.";
 }
 
 #ed-project-11-techstack-1:after {
