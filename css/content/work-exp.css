@@ -2,12 +2,29 @@
   content: "Work Experiences";
 }
 
+#ed-work-8-role:after {
+  content: "Software Engineer";
+}
+
+#ed-work-8-period:after {
+  content: "Dec 2022 - Present";
+}
+
+#ed-work-8-company:after {
+  content: "DKatalis (Digital Katalis)";
+}
+
+#ed-work-8-summary:after {
+  content: "Involved in AMAAN App development.";
+}
+
+
 #ed-work-7-role:after {
   content: "Flutter Developer";
 }
 
 #ed-work-7-period:after {
-  content: "Mar 2021 - Present";
+  content: "Mar 2021 - Nov 2-22";
 }
 
 #ed-work-7-company:after {
