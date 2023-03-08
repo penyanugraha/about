@@ -2,86 +2,157 @@
     content: "Skills";
 }
 
-#ed-skills-1:after {
-    content: "";
+/* Notable Competencies */
+#ed-skills-notable-label:after {
+    content: "Notable Competencies:";
 }
 
-#ed-skills-2:after {
-    content: "Flutter";
+#ed-skills-notable-1:after {
+    content: "- Complete Product Lifecycle";
 }
 
-#ed-skills-3:after {
-    content: "Dart";
+#ed-skills-notable-2:after {
+    content: "- SCRUM & Agile Methodology";
 }
 
-#ed-skills-4:after {
-    content: "Couchbase";
+#ed-skills-notable-3:after {
+    content: "- Hypothesis Testing & Validation";
 }
 
-#ed-skills-5:after {
-    content: "Android";
+#ed-skills-notable-4:after {
+    content: "- Customer Interviews";
 }
 
-#ed-skills-6:after {
-    content: "Kotlin";
+#ed-skills-notable-5:after {
+    content: "- Personas";
 }
 
-#ed-skills-7:after {
-    content: "Java";
+#ed-skills-notable-6:after {
+    content: "- Roadmapping";
 }
 
-#ed-skills-8:after {
-    content: "XML";
+#ed-skills-notable-7:after {
+    content: "- Data Analysis & Visualization";
 }
 
-#ed-skills-9:after {
+#ed-skills-notable-8:after {
+    content: "- Digital Marketing";
+}
+
+#ed-skills-notable-9::after {
+    content: "- Design & UX Principles";
+}
+
+#ed-skills-notable-10:after {
+    content: "- Market Research";
+}
+
+#ed-skills-notable-11:after {
+    content: "- Team Coaching";
+}
+
+#ed-skills-notable-12:after {
+    content: "- Language Localization";
+}
+
+/* Analytics & Data Tool */
+#ed-skills-analytic-label:after {
+    content: "Analytics & Data Tools:";
+}
+
+#ed-skills-analytic-1:after {
+    content: "Google Sheets";
+}
+
+#ed-skills-analytic-2:after {
+    content: "Google Analytics";
+}
+
+#ed-skills-analytic-3:after {
+    content: "Google Tag Manager";
+}
+
+#ed-skills-analytic-4:after {
+    content: "MixPanel";
+}
+
+#ed-skills-analytic-5:after {
+    content: "Pandas";
+}
+
+/* Product & Creative Tools */
+#ed-skills-product-label:after {
+    content: "Product & Creative Tools:";
+}
+
+#ed-skills-product-1:after {
+    content: "Figma";
+}
+
+#ed-skills-product-2:after {
+    content: "PowerPoint";
+}
+
+#ed-skills-product-3:after {
+    content: "Invision";
+}
+
+#ed-skills-product-4:after {
+    content: "CorelDraw";
+}
+
+
+/* Organizational & Development Tools */
+#ed-skills-organizational-label:after {
+    content: "Organizational & Development Tools:";
+}
+
+#ed-skills-organizational-1:after {
+    content: "G Suite Apps";
+}
+
+#ed-skills-organizational-2:after {
+    content: "Slack";
+}
+
+#ed-skills-organizational-3:after {
+    content: "Discord";
+}
+
+#ed-skills-organizational-4:after {
+    content: "Jira";
+}
+
+#ed-skills-organizational-5:after {
+    content: "ClickUp";
+}
+
+#ed-skills-organizational-6:after {
+    content: "Trello";
+}
+
+#ed-skills-organizational-7:after {
+    content: "GitLab";
+}
+
+
+/* Languages & Syntax */
+#ed-skills-syntax-label:after {
+    content: "Languages & Syntax Understanding:";
+}
+
+#ed-skills-syntax-1:after {
+    content: "HTML";
+}
+
+#ed-skills-syntax-2:after {
+    content: "CSS";
+}
+
+#ed-skills-syntax-3:after {
     content: "Python";
 }
 
-#ed-skills-10:after {
-    content: "SDN";
-}
-
-#ed-skills-11:after {
-    content: "MikroTik Basic";
-}
-
-#ed-skills-12:after {
-    content: "iOS";
-}
-
-#ed-skills-13:after {
-    content: "Swift";
-}
-
-#ed-skills-14:after {
-    content: "Obj-C";
-}
-
-#ed-skills-15:after {
-    content: "ReactJS";
-}
-
-#ed-skills-16:after {
-    content: "NextJS";
-}
-
-#ed-skills-17:after {
-    content: "TailwindCSS";
-}
-
-#ed-skills-18:after {
-    content: "Unity Engine";
-}
-
-#ed-skills-19:after {
-    content: "C#";
-}
-
-#ed-skills-20:after {
-    content: "Raspberry Pi";
-}
-
-#ed-skills-21:after {
-    content: "Cisco Basic";
+#ed-skills-syntax-4:after {
+    content: "APIs";
 }
