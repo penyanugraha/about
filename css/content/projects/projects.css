@@ -20,7 +20,7 @@
 @import url(project-20.css);
 
 #ed-projects-title:after {
-  content: "Projects";
+  content: "Products & Projects";
 }
 
 #ed-project--title:after {
@@ -56,13 +56,13 @@
 }
 
 .ed-project--img-1 {
-    content:url("../../../assets/images/.png");
+  content: url("../../../assets/images/.png");
 }
 
 .ed-project--img-2 {
-    content:url("../../../assets/images/.png");
+  content: url("../../../assets/images/.png");
 }
 
 .ed-project--img-3 {
-    content:url("../../../assets/images/.png");
+  content: url("../../../assets/images/.png");
 }
