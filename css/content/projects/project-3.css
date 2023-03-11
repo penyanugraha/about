@@ -1,39 +1,31 @@
 #ed-project-3-title:after {
-  content: "Oosaha POS Android App";
+  content: "PT ABC President Company Profile";
 }
 
 #ed-project-3-about:after {
-  content: "Oosaha is point of sales application.";
+  content: "Creating an official company profile full site for PT ABC President.";
 }
 
 #ed-project-3-task-1:after {
-  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
-}
-
-#ed-project-3-task-2:after {
-  content: "Implementing RESTful API from the server and rendering the data.";
-}
-
-#ed-project-3-techstack-1:after {
-  content: "Android";
-}
-
-#ed-project-3-techstack-2:after {
-  content: "Kotlin";
-}
-
-#ed-project-3-techstack-3:after {
-  content: "XML";
-}
-
-#ed-project-3-techstack-4:after {
-  content: "Firebase";
+  content: "Consulting and Planning Website Strategy";
 }
 
 .ed-project-3-img-1 {
-  content: url("../../../assets/images/oosaha_1.png");
+  content: url("../../../assets/images/abc_activation_1.png");
 }
 
 .ed-project-3-img-2 {
-  content: url("../../../assets/images/oosaha_2.png");
+  content: url("../../../assets/images/abc_activation_2.png");
+}
+
+.ed-project-3-img-3 {
+  content: url("../../../assets/images/abc_activation_3.png");
+}
+
+.ed-project-3-img-4 {
+  content: url("../../../assets/images/abc_activation_4.png");
+}
+
+.ed-project-3-img-5 {
+  content: url("../../../assets/images/abc_activation_5.png");
 }

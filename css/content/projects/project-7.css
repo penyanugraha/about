@@ -1,41 +1,9 @@
 #ed-project-7-title:after {
-  content: "SIPMI Android App";
+  content: "SIPMI";
 }
 
 #ed-project-7-about:after {
-  content: "SIPMI is an application that help Indonesian migrant workers, as well as bridging the flow of information between Indonesian migrant workers, their families and the government directly.";
-}
-
-#ed-project-7-task-1:after {
-  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
-}
-
-#ed-project-7-task-2:after {
-  content: "Implementing RESTful API from the server and rendering the data.";
-}
-
-#ed-project-7-task-3:after {
-  content: "Developing real-time chat communication using Firebase Realtime Database.";
-}
-
-#ed-project-7-task-4:after {
-  content: "Developing real-time emergency alert feature using Firebase Realtime Database.";
-}
-
-#ed-project-7-techstack-1:after {
-  content: "Android";
-}
-
-#ed-project-7-techstack-2:after {
-  content: "Kotlin";
-}
-
-#ed-project-7-techstack-3:after {
-  content: "XML";
-}
-
-#ed-project-7-techstack-4:after {
-  content: "Firebase";
+  content: "an information system for Indonesian migrants that help bridging communication between Indonesian government and their migrant citizen and facilitating Indonesian migrants to communicate with their family and manage their financial income and expenditure and send money to their family easily and securely";
 }
 
 .ed-project-7-img-1 {
@@ -49,4 +17,3 @@
 .ed-project-7-img-3 {
   content: url("../../../assets/images/sipmi_3.png");
 }
-  

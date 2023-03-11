@@ -1,36 +1,15 @@
 #ed-project-4-title:after {
-  content: "Qasir POS Android App";
+  content: "Nu Green Tea";
 }
 
 #ed-project-4-about:after {
-  content: "Qasir is point of sales application and business management platform built to help seller achieve their goals.";
+  content: "Creating an Interactive webapp that would be used by Nu Green Tea to support their brand activation events.";
 }
 
 #ed-project-4-task-1:after {
-  content: "Developing Detail Invoice Page & Custom In-App Keyboard.";
-}
-
-#ed-project-4-task-2:after {
-  content: "Implementing RESTful API from the server and rendering the data.";
-}
-
-#ed-project-4-techstack-1:after {
-  content: "Android";
-}
-
-#ed-project-4-techstack-2:after {
-  content: "Kotlin";
-}
-
-#ed-project-4-techstack-3:after {
-  content: "XML";
+  content: "Provided them with a quiz that challenges the customers to create best design for Nu Green Tea new packaging. This way they could get new attention from both their existing customers and prospects.";
 }
 
 .ed-project-4-img-1 {
-  content: url("../../../assets/images/qasir_1.png");
+  content: url("../../../assets/images/nu_activation_1.png");
 }
-
-.ed-project-4-img-2 {
-  content: url("../../../assets/images/qasir_2.png");
-}
-  

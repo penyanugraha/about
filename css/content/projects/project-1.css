@@ -1,39 +1,15 @@
 #ed-project-1-title:after {
-  content: "Artur Android App";
+  content: "Sari Roti Brand Activation";
 }
 
 #ed-project-1-about:after {
-  content: "Artur is augmented reality app that shows various tourist object attraction in Yogyakarta. This project wins silver medal at Pekan Ilmiah Mahasiswa Nasional 2015.";
+  content: "Creating an Interactive webapp that would be used by Sari Roti to support their brand activation events.";
 }
 
 #ed-project-1-task-1:after {
-  content: "Using Unity Engine and Vuforia SDK to develop augmented reality functionality.";
-}
-
-#ed-project-1-techstack-1:after {
-  content: "Android";
-}
-
-#ed-project-1-techstack-2:after {
-  content: "Unity Engine";
-}
-
-#ed-project-1-techstack-3:after {
-  content: "C#";
-}
-
-#ed-project-1-techstack-4:after {
-  content: "Augmented Reality";
-}
-
-#ed-project-1-techstack-5:after {
-  content: "Vuforia SDK";
+  content: "A quiz that may serve as a kind of customers behaviour research. This way Sari Roti get a two-fold benefit. The first benefit is free penetration of their campaign on social media (by the quiz partisipants) and the data mined from the quiz.";
 }
 
 .ed-project-1-img-1 {
-  content: url("../../../assets/images/artur_1.png");
-}
-
-.ed-project-1-img-2 {
-  content: url("../../../assets/images/artur_2.png");
+  content: url("../../../assets/images/sari_roti_activation_1.png");
 }

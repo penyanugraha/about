@@ -1,44 +1,19 @@
 #ed-project-6-title:after {
-  content: "SIPMI Keuangan Android App";
+  content: "Sistem Informasi PKB";
 }
 
 #ed-project-6-about:after {
-  content: "SIPMI Keuangan is an application that makes it easier for Indonesian migrant workers to manage their financial income and expenditure records, both personal and family finances.";
-}
-
-#ed-project-6-task-1:after {
-  content: "Responsible for full Android app life-cycle: concept, design, build, test, deploy, and release to the Android Play Store.";
-}
-
-#ed-project-6-task-2:after {
-  content: "Implementing RESTful API from the server and rendering the data.";
-}
-
-#ed-project-6-techstack-1:after {
-  content: "Android";
-}
-
-#ed-project-6-techstack-2:after {
-  content: "Kotlin";
-}
-
-#ed-project-6-techstack-3:after {
-  content: "XML";
-}
-
-#ed-project-6-techstack-4:after {
-  content: "Firebase";
+  content: "Developing an information system to digitalize and streamline day-to-day business process of political parties in Indonesia, from administrative, database integration, to analytics.";
 }
 
 .ed-project-6-img-1 {
-  content: url("../../../assets/images/sipmi_keu_1.png");
+  content: url("../../../assets/images/sipmi_1.png");
 }
 
 .ed-project-6-img-2 {
-  content: url("../../../assets/images/sipmi_keu_2.png");
+  content: url("../../../assets/images/sipmi_2.png");
 }
 
 .ed-project-6-img-3 {
-  content: url("../../../assets/images/sipmi_keu_3.png");
+  content: url("../../../assets/images/sipmi_3.png");
 }
-  

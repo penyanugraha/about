@@ -1,52 +1,15 @@
 #ed-project-2-title:after {
-  content: "OpenDaylight SDN Android App";
+  content: "Sari Roti Company Profile";
 }
 
 #ed-project-2-about:after {
-  content: "OpenDaylight SDN App is an application that control and monitor Software-Defined Network devices. This project is submitted for Undergraduate Thesis.";
+  content: "Creating an official company porfile full site for PT Nippon Indosari Corpindo Tbk.";
 }
 
 #ed-project-2-task-1:after {
-  content: "Using Raspberry Pi to build a network topology and act as SDN Controllers.";
-}
-
-#ed-project-2-task-2:after {
-  content: "Using OpenDaylight API to establish communication between app and network devices.";
-}
-
-#ed-project-2-techstack-1:after {
-  content: "Android";
-}
-
-#ed-project-2-techstack-2:after {
-  content: "Kotlin";
-}
-
-#ed-project-2-techstack-3:after {
-  content: "XML";
-}
-
-#ed-project-2-techstack-4:after {
-  content: "OpednDaylight";
-}
-
-#ed-project-2-techstack-5:after {
-  content: "SDN";
-}
-
-#ed-project-2-techstack-6:after {
-  content: "Raspberry Pi";
+  content: "Build a promotional landing page that outlines how Sari Roti is suitable for Indonesian families and present their products as a part of daily need.";
 }
 
 .ed-project-2-img-1 {
-  content: url("../../../assets/images/odl_1.png");
+  content: url("../../../assets/images/sari_roti_compro_1.png");
 }
-
-.ed-project-2-img-2 {
-  content: url("../../../assets/images/odl_2.png");
-}
-
-.ed-project-2-img-3 {
-  content: url("../../../assets/images/odl_3.png");
-}
-  

@@ -1,48 +1,23 @@
-#ed-project-8-title:after {
-  content: "Wideboard iOS App";
+#ed-project-12-title:after {
+  content: "Opinium Android App";
 }
 
-#ed-project-8-about:after {
-  content: "Wideboard is chat application that focused for workspace.";
+#ed-project-12-about:after {
+  content: "A community-based information curation, helping public to easily obtain more reliable information related to political and social issues during 2019 in Indonesia.";
 }
 
-#ed-project-8-task-1:after {
-  content: "Responsible for full iOS app life-cycle: concept, design, build, test, deploy, and release to the Apple App Store.";
+.ed-project-12-img-1 {
+  content: url("../../../assets/images/opinium_1.png");
 }
 
-#ed-project-8-task-2:after {
-  content: "Implementing RESTful API from the server and rendering the data.";
+.ed-project-12-img-2 {
+  content: url("../../../assets/images/opinium_2.png");
 }
 
-#ed-project-8-task-3:after {
-  content: "Improving performance and bug fixing of existing iOS app.";
+.ed-project-12-img-3 {
+  content: url("../../../assets/images/opinium_3.png");
 }
 
-#ed-project-8-task-4:after {
-  content: "Developing video conference feature using Jitsi SDK.";
+.ed-project-12-img-4 {
+  content: url("../../../assets/images/opinium_4.png");
 }
-
-#ed-project-8-techstack-1:after {
-  content: "iOS";
-}
-
-#ed-project-8-techstack-2:after {
-  content: "Swift";
-}
-
-#ed-project-8-techstack-3:after {
-  content: "Firebase";
-}
-
-#ed-project-8-techstack-4:after {
-  content: "Jitsi SDK";
-}
-
-.ed-project-8-img-1 {
-  content: url("../../../assets/images/wb3.webp");
-}
-
-.ed-project-8-img-2 {
-  content: url("../../../assets/images/wb4.png");
-}
-  
