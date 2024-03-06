@@ -3,11 +3,28 @@
 }
 
 #ed-work-8-role:after {
+  content: "Product Manager";
+}
+
+#ed-work-8-period:after {
+  content: "8/2023 - Present";
+}
+
+#ed-work-8-company:after {
+  content: "HrmLabs";
+}
+
+#ed-work-8-summary:after {
+  content: "Work closely with the stakeholders to implement product features and enhancements, define target customer segments, create product documentation, lead product development team.";
+}
+
+
+#ed-work-8-role:after {
   content: "Senior Product Manager";
 }
 
 #ed-work-8-period:after {
-  content: "11/2022 - Present";
+  content: "11/2022 - 7/2023";
 }
 
 #ed-work-8-company:after {
